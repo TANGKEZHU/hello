@@ -1,0 +1,22 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/MyAnimation</item>
+    </style>
+
+    <style name="MyAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/in_righttoleft</item>
+        <item name="android:activityOpenExitAnimation">@anim/out_righttoleft</item>
+        <item name="android:activityCloseEnterAnimation">@anim/in_lefttoright</item>
+        <item name="android:activityCloseExitAnimation">@anim/out_lefttoright</item>
+    </style>
+
+</resources>
