@@ -16,6 +16,22 @@ public final class R {
     }
     public static final class attr {
     }
+    public static final class color {
+        /**  半透明 
+         */
+        public static final int bgBackground=0x7f050002;
+        public static final int bgBackgroundg=0x7f050003;
+        public static final int hint_foreground_holo_light=0x7f050005;
+        public static final int setting_view_item_subtitle_text=0x7f050006;
+        public static final int textWhite=0x7f050007;
+        /**  主界面背景色 
+         */
+        public static final int transparent=0x7f050004;
+        /**  透明 
+         */
+        public static final int transparent_a1=0x7f050000;
+        public static final int transparent_a2=0x7f050001;
+    }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
 
@@ -23,39 +39,64 @@ public final class R {
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f050000;
-        public static final int activity_vertical_margin=0x7f050001;
+        public static final int activity_horizontal_margin=0x7f060000;
+        public static final int activity_vertical_margin=0x7f060001;
+        public static final int setting_view_lr_padding=0x7f060006;
+        public static final int setting_view_subtitle_size=0x7f060009;
+        public static final int setting_view_tb_padding=0x7f060007;
+        public static final int setting_view_title_size=0x7f060008;
+        public static final int switch_button_height=0x7f06000b;
+        public static final int switch_button_width=0x7f06000a;
+        public static final int text_bigsize=0x7f060003;
+        public static final int text_smallsize=0x7f060002;
+        public static final int title_height=0x7f060004;
+        public static final int title_ib_width=0x7f060005;
     }
     public static final class drawable {
-        public static final int home=0x7f020000;
-        public static final int home_s=0x7f020001;
-        public static final int ic_launcher=0x7f020002;
-        public static final int me=0x7f020003;
-        public static final int me_s=0x7f020004;
-        public static final int menu=0x7f020005;
-        public static final int menu_circle_bg=0x7f020006;
-        public static final int menu_home_bg=0x7f020007;
-        public static final int menu_me_bg=0x7f020008;
-        public static final int menu_notice_bg=0x7f020009;
-        public static final int menu_set_bg=0x7f02000a;
-        public static final int menu_team_bg=0x7f02000b;
-        public static final int message=0x7f02000c;
-        public static final int message_s=0x7f02000d;
-        public static final int notice=0x7f02000e;
-        public static final int notice_s=0x7f02000f;
-        public static final int setting=0x7f020010;
-        public static final int setting_s=0x7f020011;
-        public static final int team=0x7f020012;
-        public static final int team_s=0x7f020013;
+        public static final int btn_home_normal=0x7f020000;
+        public static final int home=0x7f020001;
+        public static final int home_s=0x7f020002;
+        public static final int ic_launcher=0x7f020003;
+        public static final int me=0x7f020004;
+        public static final int me_s=0x7f020005;
+        public static final int menu=0x7f020006;
+        public static final int menu_circle_bg=0x7f020007;
+        public static final int menu_home_bg=0x7f020008;
+        public static final int menu_me_bg=0x7f020009;
+        public static final int menu_notice_bg=0x7f02000a;
+        public static final int menu_set_bg=0x7f02000b;
+        public static final int menu_team_bg=0x7f02000c;
+        public static final int message=0x7f02000d;
+        public static final int message_s=0x7f02000e;
+        public static final int notice=0x7f02000f;
+        public static final int notice_s=0x7f020010;
+        public static final int select_titlebar_tv=0x7f020011;
+        public static final int setting=0x7f020012;
+        public static final int setting_s=0x7f020013;
+        public static final int sl_ib_tr_a1=0x7f020014;
+        public static final int team=0x7f020015;
+        public static final int team_s=0x7f020016;
     }
     public static final class id {
-        public static final int action_settings=0x7f090006;
-        public static final int drawer_layout=0x7f090000;
-        public static final int fragment_layout=0x7f090003;
-        public static final int menu=0x7f090005;
-        public static final int menu_item_bg=0x7f090004;
-        public static final int menu_layout=0x7f090001;
-        public static final int menu_listView=0x7f090002;
+        public static final int action_settings=0x7f0a0012;
+        public static final int drawer_layout=0x7f0a0000;
+        public static final int fragment_layout=0x7f0a0003;
+        public static final int menu=0x7f0a0005;
+        public static final int menu_item_bg=0x7f0a0004;
+        public static final int menu_layout=0x7f0a0001;
+        public static final int menu_listView=0x7f0a0002;
+        public static final int title_btn_left=0x7f0a000c;
+        public static final int title_btn_right=0x7f0a000d;
+        public static final int title_home_right=0x7f0a0011;
+        public static final int title_ib_left=0x7f0a0009;
+        public static final int title_ib_right=0x7f0a000a;
+        public static final int title_ib_right2=0x7f0a000b;
+        public static final int title_iv=0x7f0a000f;
+        public static final int title_left_tv=0x7f0a0008;
+        public static final int title_right_tv=0x7f0a0010;
+        public static final int title_tv=0x7f0a000e;
+        public static final int titlebar=0x7f0a0006;
+        public static final int titlebar_ly=0x7f0a0007;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -66,14 +107,16 @@ public final class R {
         public static final int fragment_set=0x7f030005;
         public static final int fragment_team=0x7f030006;
         public static final int main_listitem=0x7f030007;
+        public static final int titlebar=0x7f030008;
     }
     public static final class menu {
-        public static final int main=0x7f080000;
+        public static final int main=0x7f090000;
     }
     public static final class string {
-        public static final int action_settings=0x7f060001;
-        public static final int app_name=0x7f060000;
-        public static final int hello_world=0x7f060002;
+        public static final int action_settings=0x7f070001;
+        public static final int app_name=0x7f070000;
+        public static final int hello_world=0x7f070002;
+        public static final int mine=0x7f070003;
     }
     public static final class style {
         /** 
@@ -94,10 +137,22 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070000;
+        public static final int AppBaseTheme=0x7f080000;
         /**  Application theme. 
          */
-        public static final int AppTheme=0x7f070001;
-        public static final int MyAnimation=0x7f070002;
+        public static final int AppTheme=0x7f080001;
+        public static final int MyAnimation=0x7f080002;
+        /**  标题栏样式==>左右按钮BTN 
+         */
+        public static final int TitleBTN=0x7f080005;
+        /**  标题栏样式==>左右按钮IB 
+         */
+        public static final int TitleIB=0x7f080004;
+        /**  标题栏样式==>主标题 
+         */
+        public static final int TitleTV=0x7f080006;
+        /**  标题栏样式==>左右按钮IB @color/setting_view_item_subtitle_text 
+         */
+        public static final int TitleTextViewB=0x7f080003;
     }
 }

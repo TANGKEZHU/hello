@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/titlebar"
+    android:layout_width="fill_parent"
+    android:layout_height="55dp"
+    android:background="@color/bgBackground"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/titlebar_ly"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/transparent"
+        android:gravity="center_vertical" >
+
+
+
+        <TextView
+            android:id="@+id/title_left_tv"
+            style="@style/TitleTextViewB"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/title_ib_left"
+            style="@style/TitleIB"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/title_ib_right"
+            style="@style/TitleIB"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/title_ib_right2"
+            style="@style/TitleIB"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="58dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/title_btn_left"
+            style="@style/TitleBTN"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/title_btn_right"
+            style="@style/TitleBTN"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/hint_foreground_holo_light"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/title_tv"
+            style="@style/TitleTV"
+            android:layout_centerInParent="true"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/title_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/title_right_tv"
+            style="@style/TitleTextViewB"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/title_home_right"
+            style="@style/TitleIB"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/btn_home_normal"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</LinearLayout>
