@@ -3,6 +3,12 @@
 
     <string name="app_name">Basketball</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
-  <string name="mine">我的</string>
+    <string name="home_gird_item_name_club">Club</string>
+    <string name="home_gird_item_name_disciple">门徒</string>
+    <string name="home_gird_item_name_search_field">寻场</string>
+    <string name="home_gird_item_name_angel_man">天使人</string>
+    <string name="home_gird_item_name_major_league">大联盟</string>
+    <string name="home_gird_item_name_fight">约战</string>
+    <string name="mine">我的</string>
+
 </resources>

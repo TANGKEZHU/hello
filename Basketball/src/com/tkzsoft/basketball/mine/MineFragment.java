@@ -1,14 +1,12 @@
 package com.tkzsoft.basketball.mine;
 
-import com.tkzsoft.basketball.R;
-import com.tkzsoft.basketball.util.TitlebarUtil;
-import com.tkzsoft.basketball.util.myfragment.BaseFragment;
-
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+
+import com.tkzsoft.basketball.R;
+import com.tkzsoft.basketball.util.myfragment.BaseFragment;
 
 public class MineFragment extends BaseFragment {
 	private View view;
@@ -21,7 +19,7 @@ public class MineFragment extends BaseFragment {
 	}
 
 	protected void initTitleBar() {
-		TextView mTitleName = TitlebarUtil.showTitleName(view, R.string.mine);
+//		TextView mTitleName = TitlebarUtil.showTitleName(view, R.string.mine);
 		// TitlebarUtil.showLeftName(this,
 		// R.string.back).setOnClickListener(this);
 		// mSave = TitlebarUtil.showRightNa
