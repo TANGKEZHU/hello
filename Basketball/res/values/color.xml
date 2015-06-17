@@ -7,9 +7,13 @@
     <!-- 半透明 -->
     <color name="bgBackground">#18b4ed</color>
     <color name="bgBackgroundg">#dcdcdc</color>
-  <!-- 主界面背景色 -->
+    <!-- 主界面背景色 -->
     <color name="transparent">#00000000</color>
     <color name="hint_foreground_holo_light">#ff808080</color>
     <color name="setting_view_item_subtitle_text">#FFCCCCCC</color>
     <color name="textWhite">#ffffff</color>
+    <color name="white">@android:color/white</color>
+    <color name="black">@android:color/black</color>
+    <color name="red">#D72E30</color>
+
 </resources>

@@ -10,5 +10,9 @@
     <string name="home_gird_item_name_major_league">大联盟</string>
     <string name="home_gird_item_name_fight">约战</string>
     <string name="mine">我的</string>
+    <string name="home">首页</string>
+    <string name="home_right_text">深圳</string>
+    <string name="home_current_dress_label">当前城市:</string>
+    <string name="home_change_city">更换</string>
 
 </resources>
