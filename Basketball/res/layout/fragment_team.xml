@@ -4,10 +4,39 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <TextView
-        android:layout_width="match_parent"
-       android:layout_height="match_parent"
+    <include layout="@layout/titlebar" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:background="@color/black"
         android:gravity="center"
-        android:text="TeamFragment" />
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp" >
+
+        <EditText
+            android:id="@+id/edit_search"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/team_shape_bg"
+            android:gravity="center_vertical"
+            android:hint="找球队"
+            android:paddingLeft="48dp" />
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/team_search" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list_team_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </ListView>
 
 </LinearLayout>

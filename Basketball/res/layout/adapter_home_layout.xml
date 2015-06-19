@@ -9,9 +9,7 @@
         android:id="@+id/tv_home_gird_item"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableTop="@drawable/home_club"
         android:gravity="center"
-        android:text="@string/home_gird_item_name_club"
         android:textColor="@color/white"
         android:textSize="16sp" />
 

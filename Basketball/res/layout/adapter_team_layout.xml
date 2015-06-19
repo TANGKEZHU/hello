@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="72dp" >
+
+        <ImageView
+            android:id="@+id/team_image"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/team_image_1" />
+
+        <TextView
+            android:id="@+id/team_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/team_image"
+            android:text="先峰" />
+
+        <TextView
+            android:id="@+id/team_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:layout_toRightOf="@id/team_image"
+            android:gravity="right"
+            android:text="1km左右" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/team_name"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/team_image"
+            android:gravity="center_vertical"
+             android:layout_centerVertical="true"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/first"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/team_count"
+                    style="@style/TeamItemTV"
+                    android:text="2" />
+
+                <TextView
+                    android:id="@+id/team_count_text"
+                    style="@style/TeamItemTV"
+                    android:text="队员数量" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="24dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/gray" />
+
+            <LinearLayout
+                android:id="@+id/second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/team_member_age"
+                    style="@style/TeamItemTV"
+                    android:text="28" />
+
+                <TextView
+                    android:id="@+id/team_member_age_text"
+                    style="@style/TeamItemTV"
+                    android:text="平均年龄" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="24dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/gray" />
+
+            <LinearLayout
+                android:id="@+id/third"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/team_win"
+                    style="@style/TeamItemTV"
+                    android:text="28%" />
+
+                <TextView
+                    android:id="@+id/team_win_text"
+                    style="@style/TeamItemTV"
+                    android:text="比赛胜率" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="24dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/gray" />
+
+            <LinearLayout
+                android:id="@+id/four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/team_morality"
+                    style="@style/TeamItemTV"
+                    android:text="0" />
+
+                <TextView
+                    android:id="@+id/team_morality_text"
+                    style="@style/TeamItemTV"
+                    android:text="球队球品" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/team_triangle" />
+    </RelativeLayout>
+
+</LinearLayout>

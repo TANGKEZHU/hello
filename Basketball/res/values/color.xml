@@ -15,5 +15,6 @@
     <color name="white">@android:color/white</color>
     <color name="black">@android:color/black</color>
     <color name="red">#D72E30</color>
+    <color name="gray">#B2B2B2</color>
 
 </resources>

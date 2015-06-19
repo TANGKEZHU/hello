@@ -22,6 +22,7 @@ public final class R {
         public static final int bgBackground=0x7f050002;
         public static final int bgBackgroundg=0x7f050003;
         public static final int black=0x7f050009;
+        public static final int gray=0x7f05000b;
         public static final int hint_foreground_holo_light=0x7f050005;
         public static final int red=0x7f05000a;
         public static final int setting_view_item_subtitle_text=0x7f050006;
@@ -86,49 +87,81 @@ public final class R {
         public static final int setting_s=0x7f02001b;
         public static final int sl_ib_tr_a1=0x7f02001c;
         public static final int team=0x7f02001d;
-        public static final int team_s=0x7f02001e;
+        public static final int team_image_1=0x7f02001e;
+        public static final int team_image_10=0x7f02001f;
+        public static final int team_image_11=0x7f020020;
+        public static final int team_image_2=0x7f020021;
+        public static final int team_image_3=0x7f020022;
+        public static final int team_image_4=0x7f020023;
+        public static final int team_image_5=0x7f020024;
+        public static final int team_image_6=0x7f020025;
+        public static final int team_image_7=0x7f020026;
+        public static final int team_image_8=0x7f020027;
+        public static final int team_image_9=0x7f020028;
+        public static final int team_s=0x7f020029;
+        public static final int team_search=0x7f02002a;
+        public static final int team_shape_bg=0x7f02002b;
+        public static final int team_triangle=0x7f02002c;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a0019;
+        public static final int action_settings=0x7f0a002a;
         public static final int drawer_layout=0x7f0a0000;
+        public static final int edit_search=0x7f0a0017;
+        public static final int first=0x7f0a0008;
+        public static final int four=0x7f0a0011;
         public static final int fragment_layout=0x7f0a0003;
-        public static final int home_change_city=0x7f0a000b;
-        public static final int home_grid_view=0x7f0a0007;
-        public static final int home_pop_city=0x7f0a000a;
-        public static final int home_pop_grid_view=0x7f0a0009;
-        public static final int home_pop_window=0x7f0a0008;
-        public static final int menu=0x7f0a000d;
-        public static final int menu_item_bg=0x7f0a000c;
+        public static final int home_change_city=0x7f0a001c;
+        public static final int home_grid_view=0x7f0a0016;
+        public static final int home_pop_city=0x7f0a001b;
+        public static final int home_pop_grid_view=0x7f0a001a;
+        public static final int home_pop_window=0x7f0a0019;
+        public static final int list_team_view=0x7f0a0018;
+        public static final int menu=0x7f0a001e;
+        public static final int menu_item_bg=0x7f0a001d;
         public static final int menu_layout=0x7f0a0001;
         public static final int menu_listView=0x7f0a0002;
-        public static final int title_btn_left=0x7f0a0013;
-        public static final int title_btn_right=0x7f0a0014;
-        public static final int title_home_right=0x7f0a0018;
-        public static final int title_ib_left=0x7f0a0010;
-        public static final int title_ib_right=0x7f0a0011;
-        public static final int title_ib_right2=0x7f0a0012;
-        public static final int title_iv=0x7f0a0016;
-        public static final int title_left_tv=0x7f0a000f;
-        public static final int title_right_tv=0x7f0a0017;
-        public static final int title_tv=0x7f0a0015;
-        public static final int titlebar=0x7f0a0006;
-        public static final int titlebar_ly=0x7f0a000e;
-        public static final int toolbar=0x7f0a0005;
+        public static final int second=0x7f0a000b;
+        public static final int team_count=0x7f0a0009;
+        public static final int team_count_text=0x7f0a000a;
+        public static final int team_distance=0x7f0a0007;
+        public static final int team_image=0x7f0a0005;
+        public static final int team_member_age=0x7f0a000c;
+        public static final int team_member_age_text=0x7f0a000d;
+        public static final int team_morality=0x7f0a0012;
+        public static final int team_morality_text=0x7f0a0013;
+        public static final int team_name=0x7f0a0006;
+        public static final int team_win=0x7f0a000f;
+        public static final int team_win_text=0x7f0a0010;
+        public static final int third=0x7f0a000e;
+        public static final int title_btn_left=0x7f0a0024;
+        public static final int title_btn_right=0x7f0a0025;
+        public static final int title_home_right=0x7f0a0029;
+        public static final int title_ib_left=0x7f0a0021;
+        public static final int title_ib_right=0x7f0a0022;
+        public static final int title_ib_right2=0x7f0a0023;
+        public static final int title_iv=0x7f0a0027;
+        public static final int title_left_tv=0x7f0a0020;
+        public static final int title_right_tv=0x7f0a0028;
+        public static final int title_tv=0x7f0a0026;
+        public static final int titlebar=0x7f0a0015;
+        public static final int titlebar_ly=0x7f0a001f;
+        public static final int toolbar=0x7f0a0014;
         public static final int tv_home_gird_item=0x7f0a0004;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int adapter_home_layout=0x7f030001;
         public static final int adapter_home_pop_layout=0x7f030002;
-        public static final int fragment_circle=0x7f030003;
-        public static final int fragment_home=0x7f030004;
-        public static final int fragment_mine=0x7f030005;
-        public static final int fragment_notice=0x7f030006;
-        public static final int fragment_set=0x7f030007;
-        public static final int fragment_team=0x7f030008;
-        public static final int home_pop_window_layout=0x7f030009;
-        public static final int main_listitem=0x7f03000a;
-        public static final int titlebar=0x7f03000b;
+        public static final int adapter_team_layout=0x7f030003;
+        public static final int fragment_circle=0x7f030004;
+        public static final int fragment_home=0x7f030005;
+        public static final int fragment_mine=0x7f030006;
+        public static final int fragment_notice=0x7f030007;
+        public static final int fragment_set=0x7f030008;
+        public static final int fragment_team=0x7f030009;
+        public static final int home_pop_window_layout=0x7f03000a;
+        public static final int main_listitem=0x7f03000b;
+        public static final int titlebar=0x7f03000c;
     }
     public static final class menu {
         public static final int main=0x7f090000;
@@ -137,21 +170,25 @@ public final class R {
         public static final int action_settings=0x7f070001;
         public static final int app_name=0x7f070000;
         public static final int home=0x7f070009;
-        public static final int home_change_city=0x7f07000c;
-        public static final int home_current_dress_label=0x7f07000b;
+        public static final int home_change_city=0x7f07000e;
+        public static final int home_current_dress_label=0x7f07000d;
         public static final int home_gird_item_name_angel_man=0x7f070005;
         public static final int home_gird_item_name_club=0x7f070002;
         public static final int home_gird_item_name_disciple=0x7f070003;
         public static final int home_gird_item_name_fight=0x7f070007;
         public static final int home_gird_item_name_major_league=0x7f070006;
         public static final int home_gird_item_name_search_field=0x7f070004;
-        public static final int home_right_text=0x7f07000a;
+        public static final int home_right_text=0x7f07000c;
+        public static final int member_search=0x7f07000b;
         public static final int mine=0x7f070008;
+        public static final int team_search=0x7f07000a;
     }
     public static final class style {
         /** 
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+
 
 
     
@@ -172,6 +209,9 @@ public final class R {
          */
         public static final int AppTheme=0x7f080001;
         public static final int MyAnimation=0x7f080002;
+        /**  标题栏样式==>主标题 
+         */
+        public static final int TeamItemTV=0x7f080007;
         /**  标题栏样式==>左右按钮BTN 
          */
         public static final int TitleBTN=0x7f080005;

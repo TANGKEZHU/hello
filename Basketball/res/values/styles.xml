@@ -2,7 +2,7 @@
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
-        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
     -->
     <style name="AppBaseTheme" parent="android:Theme.Light"></style>
 
@@ -19,8 +19,7 @@
         <item name="android:activityCloseExitAnimation">@anim/out_lefttoright</item>
     </style>
 
-    
-        <!-- 标题栏样式==>左右按钮IB @color/setting_view_item_subtitle_text -->
+    <!-- 标题栏样式==>左右按钮IB @color/setting_view_item_subtitle_text -->
     <style name="TitleTextViewB">
         <item name="android:layout_width">58dip</item>
         <item name="android:layout_height">fill_parent</item>
@@ -59,6 +58,15 @@
         <item name="android:textColor">@color/textWhite</item>
         <item name="android:textSize">@dimen/text_bigsize</item>
     </style>
-    
-    
+    <!-- 标题栏样式==>主标题 -->
+    <style name="TeamItemTV">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
 </resources>
